@@ -13,3 +13,7 @@ collections of the small golang tests
 - reference link: https://golang.org/pkg/crypto/hmac/ 
 - example link: https://play.golang.org/p/apc25S7du9t
 - after create hmac.New(), then `Write()` -> you need to `Reset()` for later use
+
+3. make specific date time.Time
+- example link: https://play.golang.org/p/V4HTbzfpBrm
+- time.Now(), time.Date() returns time.Time
